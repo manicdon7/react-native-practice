@@ -9,7 +9,7 @@ import CircleButton from './components/CircleButton';
 import IconButton from './components/IconButton';
 import EmojiPicker from "./components/EmojiPicker";
 import EmojiList from './components/EmojiList';
-import EmojiSticker from './components/Emojisticker';
+import EmojiSticker from './components/EmojiSticker';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { captureRef } from 'react-native-view-shot';
 
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     flex: 1,
-    paddingTop: 58,
+    paddingTop: 60,
   },
   footerContainer: {
     flex: 1 / 3,

@@ -50,7 +50,7 @@ export default function EmojiSticker({ imageSize, stickerSource }) {
                 <Animated.Image
                     source={stickerSource}
                     resizeMode="contain"
-                    /* @info Modify the style prop on the AnimatedImage to pass the imageStyle. */ style={[imageStyle, { width: imageSize, height: imageSize }]} /* @end */
+                    style={[imageStyle, { width: imageSize, height: imageSize }]}
                     />
       /* @info */</GestureDetector>
 
